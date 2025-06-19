@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hozaifa Wear</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>Hozaifa Wear</h1>
+      <nav>
+        <ul>
+          <li><a href="#">الرئيسية</a></li>
+          <li><a href="#products">المتجر</a></li>
+          <li><a href="#about">من نحن</a></li>
+          <li><a href="#contact">تواصل معنا</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h2>اكتشف أناقتك معنا</h2>
+    <p>ملابس عصرية، مريحة وبأسعار مناسبة</p>
+    <a href="#products" class="btn">تسوّق الآن</a>
+  </section>
+
+  <section class="section" id="products">
+    <h2>منتجات مختارة</h2>
+    <div class="products">
+      <div class="product">
+        <img src="https://via.placeholder.com/300" alt="قميص كلاسيكي" />
+        <h3>قميص رجالي كلاسيكي</h3>
+        <p>29.99 دولار</p>
+        <a href="https://wa.me/15551234567" class="btn">اطلب عبر واتساب</a>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/300" alt="جاكيت شتوي" />
+        <h3>جاكيت شتوي أنيق</h3>
+        <p>59.99 دولار</p>
+        <a href="https://wa.me/15551234567" class="btn">اطلب عبر واتساب</a>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/300" alt="تيشيرت كاجوال" />
+        <h3>تيشيرت شبابي كاجوال</h3>
+        <p>19.99 دولار</p>
+        <a href="https://wa.me/15551234567" class="btn">اطلب عبر واتساب</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section features">
+    <div class="feature-box">
+      <h3>جودة عالية</h3>
+      <p>نستخدم خامات ممتازة وتفاصيل دقيقة.</p>
+    </div>
+    <div class="feature-box">
+      <h3>شحن سريع</h3>
+      <p>توصيل سريع داخل أمريكا وخارجها.</p>
+    </div>
+    <div class="feature-box">
+      <h3>دعم متواصل</h3>
+      <p>دعم عبر واتساب والبريد الإلكتروني 24/7.</p>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <h2>من نحن</h2>
+    <p>نحن علامة أزياء تهدف لتقديم ملابس بجودة ممتازة وأناقة تناسب كل الأذواق بأسعار تنافسية.</p>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>تواصل معنا</h2>
+    <p>للطلبات أو الاستفسارات، راسلنا عبر واتساب أو البريد الإلكتروني.</p>
+    <a href="https://wa.me/15551234567" class="btn">راسلنا على واتساب</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Hozaifa Wear. جميع الحقوق محفوظة.</p>
+    <p>
+      <a href="#">سياسة الخصوصية</a> |
+      <a href="#">الشحن والاسترجاع</a>
+    </p>
+  </footer>
+
+</body>
+</html>
